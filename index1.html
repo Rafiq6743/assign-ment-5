@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+    <style>      
+       @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+       body{
+        font-family: "Lexend", sans-serif;;
+       }
+    </style>
+</head>
+<body>
+
+    <nav class="sticky top-0 left-0 right-0 bg-[#F9F7F3] pb-10 pt-6" >
+        <div class="flex justify-around ">
+         <div>
+             <button class="btn bg-[#B4F461] px-10"><a href="index.html">Home</a></button>
+         </div>
+         <div class="hidden md:flex items-center">
+             <img src="assets/logo.png" alt="">
+             <h4 class="ml-4 font-bold">Donate Bangladesh</h4>
+         </div>
+         
+             <div class="stats  bg-[#F9F7F3]">
+                 <div class="stat flex justify-center">
+                     <div><img src="assets/coin.png" alt=""></div>
+                   <div id="finalout" class="stat-value text-lg text-[#444343da]">5500 </div>
+                   <div class="text-lg">BDT</div>
+                 </div>
+               </div>
+               
+ 
+         </div>
+         
+     </nav>
+     <section>
+        <h2 class="font-extrabold text-4xl ml-8">Important FAQ</h2>
+        <div class="border-2 py-8 mx-8 mt-2">
+            <p>What is the Document Object Model(DOM)?</p>
+            <P># DOM is an essential part of making websites interactive. </P>
+        </div>
+        <div class="border-2 py-8 mx-8 mt-2">
+            <P>How do you select an element from the DOM?</P>
+            <P># Using getElementById</P>
+        </div>
+        <div class="border-2 py-8 mx-8 mt-2">
+            <p>What is event delegation in the context of the DOM,and why it is useful?</p>
+            <p># Event delegation refers to the process of using event propagation (bubbling) to handle events at a higher level in the DOM than the element on which the event originated</p>
+        </div>
+        <div class="border-2 py-8 mx-8 mt-2">
+            <p>How do you manipulate an element attributes and styles using DOM?</p>
+            <P># By using the setAttribute() method.</P>
+        </div>
+     </section>
+     <script src="java/java.js"></script>
+</body>
+</html>
