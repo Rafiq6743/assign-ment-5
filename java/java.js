@@ -15,7 +15,10 @@ document.getElementById("noakhalidon").addEventListener('click',function(){
     document.getElementById("finalout").innerText = finalBalance
     const rev =document.createElement("div");
     rev.classList.add("border-2","rounded-md","py-6","pl-8","md:mx-32")
-    rev.innerText = `${balance} Taka is Donated for famine-2024 at Feni, Bangladesh `;
+
+    rev.innerText = `
+    ${balance} Taka is Donated for famine-2024 at Noakhali, Bangladesh
+    ${new Date().toLocaleString(`en-US`,{timeZone:`Asia/Dhaka`,timeStyle:`medium`,dateStyle:`full`})} `;
     document.getElementById("history").appendChild(rev);
     
     
@@ -41,7 +44,9 @@ document.getElementById("fenidon").addEventListener('click',function(){
    
     const rev =document.createElement("div");
     rev.classList.add("border-2","rounded-md","py-6","pl-8","md:mx-32")
-    rev.innerText = `${balance} Taka is Donated for famine-2024 at Noakhali, Bangladesh`;
+    rev.innerText = `
+    ${balance} Taka is Donated for famine-2024 at Feni, Bangladesh
+    ${new Date().toLocaleString(`en-US`,{timeZone:`Asia/Dhaka`,timeStyle:`medium`,dateStyle:`full`})} `;
     document.getElementById("history").appendChild(rev);
     
     
@@ -64,7 +69,9 @@ document.getElementById("movedon").addEventListener('click',function(){
     document.getElementById("finalout").innerText = finalBalance
     const rev =document.createElement("div");
     rev.classList.add("border-2","rounded-md","py-6","pl-8","md:mx-32")
-    rev.innerText = `${balance} Taka is Donated for famine-2024 at Feni, Bangladesh `;
+    rev.innerText = `
+    ${balance} Taka is Donated for injured people in quota movement, Bangladesh
+    ${new Date().toLocaleString(`en-US`,{timeZone:`Asia/Dhaka`,timeStyle:`medium`,dateStyle:`full`})} `;
     document.getElementById("history").appendChild(rev);
    
     
