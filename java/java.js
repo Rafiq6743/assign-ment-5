@@ -16,9 +16,9 @@ document.getElementById("noakhalidon").addEventListener('click',function(){
     const rev =document.createElement("div");
     rev.classList.add("border-2","rounded-md","py-6","pl-8","md:mx-32")
 
-    rev.innerText = `
-    ${balance} Taka is Donated for famine-2024 at Noakhali, Bangladesh
-    ${new Date().toLocaleString(`en-US`,{timeZone:`Asia/Dhaka`,timeStyle:`medium`,dateStyle:`full`})} `;
+    // rev.innerText = `
+    // ${balance} Taka is Donated for famine-2024 at Noakhali, Bangladesh
+    // ${new Date().toLocaleString(`en-US`,{timeZone:`Asia/Dhaka`,timeStyle:`medium`,dateStyle:`full`})} `;
     document.getElementById("history").appendChild(rev);
     
     
